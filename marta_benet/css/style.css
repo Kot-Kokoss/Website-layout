@@ -1,0 +1,245 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 17px;
+}
+.site_wrap {
+    margin: 0 64px;
+}
+.header {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    position: fixed;
+    width: 100%;
+}
+.header_wrapper {
+    padding-top: 48px;
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+.header_group {
+    display: flex;
+}
+.header_group_item {
+    margin-right: 16px;
+    text-decoration: none;
+    color:black;
+    
+}
+.home_page {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    width: 100%;
+    background-image: url('../img/background.png');
+    min-height: 100vh;
+    margin-bottom: 100px;
+}
+.logo {
+    margin-top: 67vh;
+    margin-bottom: 27vh;
+}
+.about_title {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 72px;
+    max-width: 50%;
+    margin-bottom: 60px;
+}
+.button {
+    text-align: center;
+    font-family: 'Cardo', serif;
+    text-decoration: none;
+    color: black;
+    border: solid 1px;
+    border-radius: 25px;
+    padding: 5px 25px;
+}
+.button:hover {
+    background-color: rgb(194, 206, 206);
+}
+.picture_group {
+    margin-top: 70px;
+    display: flex;
+    column-gap: 24px;
+    margin-bottom: 113px;
+    
+}
+.picture_group_item:first-child {
+    margin-top: 201px;
+}
+.img {
+    width: 100%;
+}
+.about_desc {
+    text-align: center;
+    font-family: 'Cardo', serif;
+    
+    text-align: left;
+    margin-bottom: 36px;
+}
+.about_desc_item {
+    margin-bottom: 16px;
+}
+.manifesto {
+    margin-top: 214px;
+}
+.desc_wrap {
+    display: flex;
+    justify-content: center;
+}
+.manifesto_desc {
+    width: 312px;
+    font-family: 'Cardo', serif;
+    text-align: center;
+    margin-bottom: 95px;
+}
+.manifesto_group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.manifesto_group_a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 54px;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    margin-bottom: 8px;
+}
+.manifesto_group_item:last-child {
+    margin-top: 200px;
+}
+.projects {
+    margin-top: 200px;
+}
+.projects_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 9px;
+}
+.projects_desc {
+    max-width: 850px;
+    font-family: 'Cardo', serif;
+    text-align: center;
+    margin-bottom: 63px;
+}
+.project_group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 24px;
+    margin-bottom: 192px;
+}
+.project_name {
+    font-family: 'Roboto', sans-serif;  
+}
+.services {
+    text-align: center;
+    margin-bottom: 224px;
+}
+.services_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+.services_group {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 90px;
+    row-gap: 90px;
+    margin-bottom: 170px;
+}
+.services_item {
+    grid-column: span 2;
+}
+.services_item_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    margin-bottom: 17px;
+}
+.services_item_desc {
+    font-family: 'Cardo', serif;
+    text-align: center;
+}
+.services_desc {
+    font-family: 'Cardo', serif;
+    margin-bottom: 37px;
+}
+.noveltiies, .newsletter {
+    margin-bottom: 126px;
+    text-align: center;
+}
+.novelties_wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.novelties_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin-bottom: 17px;
+}
+.swiper_group {
+    margin-left: 45px;
+    display: flex;
+}
+.left_swiper, .right_swiper {
+    padding-top: 5px;
+    width: 48px;
+    height: 48px;
+    background-color: white;   
+    border: solid 2px black;
+    border-radius: 100%;
+    margin-left: 8px;
+}
+.left_swiper:hover, .right_swiper:hover {
+    background-color: rgb(194, 206, 206);
+}
+.swiper_items {
+    margin-top: 85px;
+    display: flex;
+}
+.swiper_item {
+    margin-right: 40px;
+}
+.newsletter_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 54px;
+    margin: 130px 0 102px;
+}
+.hr_down {
+    width: 570px;
+    margin-bottom: 24px;
+}
+.newsletter_desc {
+    font-family: 'Cardo', serif;
+    width: 515px;
+    margin-bottom: 16px;
+}
+.footer_group {
+    margin: 32px 0 34px;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    text-transform: uppercase;
+}
+.footer_item {
+    margin-right: 16px;
+    text-decoration: none;
+    color: black;
+}
+.end_group {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Cardo', serif;
+    font-size: 16px;
+    margin-bottom: 45px;
+}
+img {
+    max-width: 150%;
+    max-height: 150%;
+}
