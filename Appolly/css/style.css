@@ -358,9 +358,40 @@ body {
     display: flex;
 }
 .slider_item {
-    transform: scale(0.77, 0.84);
+    z-index: 10;
+    margin-top: 45px;
+    width: 245px;
+    height: 532px;
 }
-.active_item {
+.slider_item_pic {
     width: 100%;
     height: 100%;
+}
+.slider_items .slider_item:first-child {
+    margin-right: -100px;
+    z-index: 5;
+    opacity: 50%;
+}
+.slider_items .slider_item:last-child {
+    margin-left: -100px;
+    z-index: 5;
+    opacity: 50%;
+}
+.active_item {
+    margin: 0 18px;
+    width: 310px;
+    height: 622px;
+}
+
+.sample-slider {
+    width:70%;
+}
+.sample-slider img {
+    width: 100%;
+    vertical-align: bottom;
+}
+.swiper_slide_active {
+    margin: 0 18px;
+    width: 310px;
+    height: 622px;
 }

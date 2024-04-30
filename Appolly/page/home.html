@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <title>Appolly</title>
 </head>
 <body>
@@ -209,27 +211,39 @@
                 </button>
                 <div class="slider_items">
                     <div class="slider_item">
-                        <img src="../img/pictures/slider_1.png" alt="" class="">
+                        <img src="../img/pictures/slider_1.png" alt="" class="slider_item_pic">
                     </div>
                     <div class="slider_item">
-                        <img src="../img/pictures/slider_2.png" alt="" class="">
+                        <img src="../img/pictures/slider_2.png" alt="" class="slider_item_pic">
                     </div>
-                    <div class="active_item">
-                        <img src="../img/pictures/slider_3.png" alt="" class="">
-                    </div>
-                    <div class="slider_item">
-                        <img src="../img/pictures/slider_4.png" alt="" class="">
+                    <div class="slider_item active_item">
+                        <img src="../img/pictures/slider_3.png" alt="" class="slider_item_pic">
                     </div>
                     <div class="slider_item">
-                        <img src="../img/pictures/slider_5.png" alt="" class="">
+                        <img src="../img/pictures/slider_4.png" alt="" class="slider_item_pic">
+                    </div>
+                    <div class="slider_item">
+                        <img src="../img/pictures/slider_2.png" alt="" class="slider_item_pic">
                     </div>
                 </div>
                 <button class="slider_btn slider_btn_right">
                     <div class="arrow right_arrow"></div>
                 </button>
+                <div class="swiper-pagination"></div>
             </div>
         </div>
     </section>
+    <div class="swiper sample-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="../img/pictures/slider_1.png"></div>
+            <div class="swiper-slide"><img src="../img/pictures/slider_1.png"></div>
+            <div class="swiper-slide"><img src="../img/pictures/slider_1.png"></div>
+            <div class="swiper-slide"><img src="../img/pictures/slider_1.png"></div>
+        </div>
+        <div class="swiper-button-prev"></div>  <!-- if navigation(arrows) is needed -->
+        <div class="swiper-button-next"></div>  <!-- if navigation(arrows) is needed -->
+        <div class="swiper-pagination"></div>   <!-- if pagination(dots) is needed -->
+    </div>
     
     
     <script src="../js/slider.js"></script>
