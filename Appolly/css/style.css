@@ -384,13 +384,16 @@ body {
 }
 
 .sample-slider {
-    width:70%;
+    width:60%;
 }
 .sample-slider img {
     width: 100%;
     vertical-align: bottom;
 }
-.swiper_slide_active {
+.swiper-slide {
+    margin: 20px;
+}
+.swiper-slide-active {
     margin: 0 18px;
     width: 310px;
     height: 622px;
