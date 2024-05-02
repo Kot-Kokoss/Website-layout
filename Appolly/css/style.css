@@ -382,18 +382,34 @@ body {
     width: 310px;
     height: 622px;
 }
-
+.slider__wrap {
+    display: flex;
+    margin-bottom: 50px;
+}
 .sample-slider {
-    width:60%;
+    
 }
 .sample-slider img {
     width: 100%;
-    vertical-align: bottom;
+    height: 100%;
 }
 .swiper-slide {
-    margin: 20px;
+    z-index: 10;
+    margin-top: 45px;
+    width: 245px;
+    height: 532px;
 }
-.swiper-slide-active {
+.swiper-slide:first-child {
+    margin-right: -100px;
+    z-index: 5;
+    opacity: 50%;
+}
+.swiper-slide:last-child {
+    margin-left: -100px;
+    z-index: 5;
+    opacity: 50%;
+}
+.swiper-slide.swiper-slide-active {
     margin: 0 18px;
     width: 310px;
     height: 622px;

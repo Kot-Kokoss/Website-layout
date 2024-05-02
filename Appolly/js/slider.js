@@ -15,6 +15,7 @@ const sampleSlider = new Swiper('.sample-slider', {
     slidesPerView: 5,
     centeredSlides: true,
     clickable: true,
+    autoHeight: true,
 })
 
 // const slider = () => {
